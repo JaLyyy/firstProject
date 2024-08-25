@@ -1,0 +1,30 @@
+
+ img {
+    width: 300px;
+    height: auto;
+ }
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav h1 {
+    margin-left: 64px;
+}
+
+nav ul {
+    display: flex;
+    gap: 32px;
+    margin-right: 128px;
+    list-style-type: none;
+}
+
+.headerContainer2 {
+    display: flex;
+}
+
+.con {
+    display: flex;
+    flex-direction: row;
+}
