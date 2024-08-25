@@ -6,11 +6,14 @@
 
 nav {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    gap: 160px;
+    
 }
 
 nav h1 {
     margin-left: 64px;
+    color: #f9faf8
 }
 
 nav ul {
@@ -18,13 +21,33 @@ nav ul {
     gap: 32px;
     margin-right: 128px;
     list-style-type: none;
+    color: #f9faf8;
 }
 
-.headerContainer2 {
+
+.container {
     display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 64px;
+    padding-bottom: 64px;
+    
 }
 
-.con {
-    display: flex;
-    flex-direction: row;
+.left  {
+    max-width: 300px;
+}
+
+.left p { 
+color: #f9faf8;
+}
+
+.left h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+
+.headerContainer { 
+    background-color: #1F2937;
 }
