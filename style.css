@@ -1,3 +1,6 @@
+* {
+    font-family: sans-serif;
+}
 
  .burgerImg {
     width: 220px;
@@ -11,17 +14,18 @@ nav {
     
 }
 
-nav h1 {
-    margin-left: 64px;
+nav h2 {
+    margin-left: 28px;
     color: #f9faf8
 }
 
 nav ul {
     display: flex;
     gap: 32px;
-    margin-right: 128px;
+    margin-right: 80px;
     list-style-type: none;
     color: #f9faf8;
+    
 }
 
 
@@ -50,10 +54,15 @@ color: #f9faf8;
 
 .headerContainer { 
     background-color: #1F2937;
+
 }
 
+.bodyContainer {
+    height: 45vh;
+}
 .bodyContainer h1 {
     text-align: center;
+    margin-bottom: 50px;
 }
 
 .imgContainer {
@@ -71,4 +80,35 @@ color: #f9faf8;
 
 .pContainer p {
     max-width: 250px;
+}
+
+.quoteContainer {
+    background-color: #E5E7EB;
+    height: 15vh;
+}
+
+.quoteContainer p {
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    font-weight:100;
+} 
+
+.quoteContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 128px;
+}
+
+.quoteAuthor {
+    text-align: right;
+}
+
+.quoteAuthor p {
+    font-weight: 900;
+}
+ 
+.quoteText {
+    max-width: 1200px;
 }
