@@ -1,7 +1,7 @@
 
- img {
-    width: 300px;
-    height: auto;
+ .burgerImg {
+    width: 220px;
+    height:200px;
  }
 
 nav {
@@ -50,4 +50,25 @@ color: #f9faf8;
 
 .headerContainer { 
     background-color: #1F2937;
+}
+
+.bodyContainer h1 {
+    text-align: center;
+}
+
+.imgContainer {
+    display: flex;
+    justify-content: center;
+    gap: 64px;
+}
+
+.pContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.pContainer p {
+    max-width: 250px;
 }
