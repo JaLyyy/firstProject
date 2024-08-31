@@ -1,5 +1,8 @@
 * {
     font-family: sans-serif;
+    margin: 0px;
+    padding: 0px;
+    transition: all 1s ease-in-out; 
 }
 
  .burgerImg {
@@ -111,4 +114,62 @@ color: #f9faf8;
  
 .quoteText {
     max-width: 1200px;
+}
+
+.aBox {
+    border: 1px solid black;
+    width: 700px;
+    padding: 20px 45px;
+    border-radius: 10px;
+    background-color: #3882F6;
+    display: flex;
+    gap: 80px;
+    justify-content: center;
+    align-items: center;
+    height: 65px;
+    color: #f9faf8;
+    
+}
+
+.actionContainer {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+.aBox h3 {
+    font-size: 16px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+
+button {
+    border-radius: 5px;
+    padding: 5px 15px;
+    border: 1px solid #f9faf8;
+    background:none;
+    color: #f9faf8;
+    
+}
+
+.aBox p {
+    font-size: 11px;
+}
+
+.footer {
+    background-color: #1F2937;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.footer p {
+    color: #f9faf8;
+}
+
+button:hover {
+    width: 200px;
+   
 }
